@@ -33,6 +33,7 @@ namespace CancellationToken
 
             try
             {
+                // contains _totalIterations in this case
                 var resultValue = await ops.Run(_totalIterations, 
                     _cancellationTokenSource.Token);
 

@@ -20,7 +20,7 @@ namespace CancellationToken.Classes
             while (currentIndex <= value -1)
             {
 
-                OnMonitor?.Invoke(new MonitorArgs("Working", currentIndex));
+                OnMonitor?.Invoke(new MonitorArgs(null, currentIndex));
 
                 currentIndex += 1;
 
